@@ -21,7 +21,7 @@ matrix:
   include:
     - os: osx
       go: "1.14"
-      env: DOTNET_VERSION=2.0
+      env: DOTNET_VERSION=2.1
 
 install:
   - .travis/install.sh
